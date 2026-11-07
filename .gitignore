@@ -1,0 +1,8 @@
+# Raw server logs contain IP addresses (personal data) - do not commit them
+data/*
+!data/README.md
+outputs/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
