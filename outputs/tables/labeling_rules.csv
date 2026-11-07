@@ -1,0 +1,11 @@
+rule,description,label
+U1,"Environment/config file probe (.env, .git, .svn, wp-config)",Suspicious
+U2,"WordPress probing (wp-login, wp-admin, xmlrpc, wlwmanifest, REST batch)",Suspicious
+U3,"PHP information disclosure probe (phpinfo, info.php, test.php, ?=PHP...)",Suspicious
+U4,"Dependency/build file probe (composer, phpunit)",Suspicious
+U5,Joomla JCE exploit probe,Suspicious
+U6,"Administration panel probe (/admin, /administrator, phpMyAdmin)",Suspicious
+A1,Scanner/exploit tool User-Agent,Suspicious
+C1,"Monitoring, search-engine, AI, social-preview or headless crawler User-Agent",Monitoring_Crawler
+M1,HTTP method outside GET/POST/HEAD/OPTIONS/PUT/DELETE/PATCH,Review (excluded)
+N1,No rule matched,Normal_candidate

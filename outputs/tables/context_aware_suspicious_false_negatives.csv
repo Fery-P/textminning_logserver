@@ -1,0 +1,7 @@
+ip,datetime,http_method,url,status_code,user_agent,label_rule,actual,pred_Text-Based,pred_Text + Method,pred_Text + Status,pred_Context-Aware
+ip_2c10a93691,2026-10-23 07:17:17+07:00,GET,/.env.testing,403,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,U1,Suspicious,Normal_candidate,Normal_candidate,Suspicious,Normal_candidate
+ip_32cb0c29c6,2026-10-22 22:16:54+07:00,GET,/test.php,404,"Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36",U3,Suspicious,Normal_candidate,Normal_candidate,Normal_candidate,Normal_candidate
+ip_32cb0c29c6,2026-10-22 22:16:54+07:00,GET,/php_info.php,404,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",U3,Suspicious,Normal_candidate,Normal_candidate,Normal_candidate,Normal_candidate
+ip_32cb0c29c6,2026-10-22 22:16:53+07:00,GET,/info.php,404,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",U3,Suspicious,Normal_candidate,Normal_candidate,Normal_candidate,Normal_candidate
+ip_246257bd3f,2026-10-23 07:17:16+07:00,GET,/api/phpinfo.php,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36,U3,Suspicious,Suspicious,Normal_candidate,Normal_candidate,Normal_candidate
+ip_32cb0c29c6,2026-10-22 22:17:01+07:00,GET,/server-info.php,404,Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0,U3,Suspicious,Normal_candidate,Normal_candidate,Normal_candidate,Normal_candidate

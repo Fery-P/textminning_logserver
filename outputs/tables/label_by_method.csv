@@ -1,0 +1,5 @@
+activity_label,GET,HEAD,OPTIONS,POST,Total
+Monitoring_Crawler,7738,3,0,2,7743
+Normal_candidate,2318,30,0,1,2349
+Suspicious,489,1,1,22,513
+Total,10545,34,1,25,10605

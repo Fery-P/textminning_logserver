@@ -1,0 +1,106 @@
+{
+  "summary": {
+    "raw_file_bytes": 2224949,
+    "total_response_bytes": 1625364328,
+    "unique_referer": 666,
+    "total_lines": 10606,
+    "empty_lines": 0,
+    "parsed_records": 10605,
+    "failed_lines": 1,
+    "dropped_missing_required": 0,
+    "final_records": 10605,
+    "start": "2026-10-22 15:54:59+07:00",
+    "end": "2026-10-23 10:40:26+07:00",
+    "unique_ip": 613,
+    "unique_url": 984,
+    "unique_user_agent": 272,
+    "duplicate_records": 1,
+    "review_records": 0,
+    "unique_ip_suspicious": 37,
+    "http_method_counts": {
+      "GET": 10545,
+      "HEAD": 34,
+      "POST": 25,
+      "OPTIONS": 1
+    },
+    "protocol_counts": {
+      "HTTP/2": 9254,
+      "HTTP/3": 681,
+      "HTTP/1.1": 670
+    },
+    "status_counts": {
+      "200": 9630,
+      "404": 365,
+      "403": 322,
+      "206": 162,
+      "301": 71,
+      "304": 42,
+      "401": 13
+    }
+  },
+  "label_distribution": {
+    "Monitoring_Crawler": 7743,
+    "Normal_candidate": 2349,
+    "Suspicious": 513
+  },
+  "split": {
+    "train": 8484,
+    "test": 2121
+  },
+  "holdout": {
+    "Text-Based": {
+      "accuracy": 0.9797265440829798,
+      "macro_precision": 0.9323588479081861,
+      "macro_recall": 0.918847854450243,
+      "macro_f1": 0.9250766269917151,
+      "weighted_f1": 0.9795137074507191,
+      "suspicious_f1": 0.8181818181818182,
+      "suspicious_recall": 0.7864077669902912
+    },
+    "Text + Method": {
+      "accuracy": 0.9787835926449788,
+      "macro_precision": 0.9434136174225843,
+      "macro_recall": 0.9068274221003092,
+      "macro_f1": 0.9227661625414617,
+      "weighted_f1": 0.9782344734096213,
+      "suspicious_f1": 0.8148148148148148,
+      "suspicious_recall": 0.7475728155339806
+    },
+    "Text + Status": {
+      "accuracy": 0.9863272041489863,
+      "macro_precision": 0.9516911558713245,
+      "macro_recall": 0.9692093500090119,
+      "macro_f1": 0.9601196565580201,
+      "weighted_f1": 0.9864566186811445,
+      "suspicious_f1": 0.9107981220657277,
+      "suspicious_recall": 0.941747572815534
+    },
+    "Context-Aware": {
+      "accuracy": 0.9858557284299858,
+      "macro_precision": 0.9505209634277524,
+      "macro_recall": 0.9689940183983313,
+      "macro_f1": 0.9594275357212817,
+      "weighted_f1": 0.9859949131453332,
+      "suspicious_f1": 0.9107981220657277,
+      "suspicious_recall": 0.941747572815534
+    }
+  },
+  "n_features": {
+    "Text-Based": 5368,
+    "Text + Method": 5372,
+    "Text + Status": 5375,
+    "Context-Aware": 5379
+  },
+  "mcnemar_text_vs_context": {
+    "only_a_correct": 13,
+    "only_b_correct": 26,
+    "p_value": 0.05325191409792752
+  },
+  "temporal_split": {
+    "train_end": "2026-10-23 07:17:16+07:00",
+    "test_start": "2026-10-23 07:17:16+07:00",
+    "test_suspicious": 29,
+    "train_suspicious": 484
+  },
+  "suspicious_false_negatives_context": 6
+}
